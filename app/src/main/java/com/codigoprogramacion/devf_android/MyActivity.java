@@ -36,6 +36,11 @@ public class MyActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void clickEjemploRest(View v){
+        Intent i = new Intent(this,RetrofitActivity.class);
+        startActivity(i);
+    }
+
     public void clickEjemploVisualizacion(View v){
         Intent i = new Intent(this,ChartsActivity.class);
         startActivity(i);

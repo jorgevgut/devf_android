@@ -22,11 +22,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@android:style/Widget.Holo.Button"
+        android:text="@string/ejemplo_retrofit"
+        android:onClick="clickEjemploRest"
+        android:clickable="true"
         />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@android:style/Widget.Holo.Button"/>
+
 
 
 </LinearLayout>
